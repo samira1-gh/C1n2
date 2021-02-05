@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(./bg-pattern-bottom-desktop.svg);
+    margin: 4%;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    color: #521E51;
+    font-size: 300%;
+}
+
+.paragraphe {
+    color: #511F50;
+    font-size: 135%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+
+.noire {
+    color: #743065;
+}
+
+h5 {
+    color: #521E51;
+    margin-left: 25px;
+}
+
+h3 {
+    color: beige;
+}
+
+.img1 {
+    border-radius: 50%;
+    margin-left: 9%;
+    margin-top: 2%;
+    width: 19%;
+    height: 19%;
+}
+
+.image1 {
+    width: 179%;
+    height: 50%;
+    background-color: #511F50;
+    border-radius: 10px;
+}
+
+.image2 {
+    width: 179%;
+    height: 50%;
+    background-color: #511F50;
+    border-radius: 10px;
+    margin: 2%;
+
+}
+
+.image3 {
+    width: 179%;
+    height: 50%;
+    background-color: #511F50;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+.contnu {
+    display: flex;
+}
+
+.input {
+    margin-left: 40%;
+}
+
+.footr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre5 {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.in1 {
+    border-radius: 5px;
+    background-color: #F7F2F7;
+    width: 102%;
+    height: 6%;
+    padding: 9px 20px;
+}
+
+.in2 {
+    border-radius: 5px;
+    background-color: #F7F2F7;
+    width: 102%;
+    height: 6%;
+    padding: 9px 20px;
+    margin-left: 11%;
+    margin-top: 11%;
+}
+
+.in3 {
+    border-radius: 5px;
+    background-color: #F7F2F7;
+    width: 102%;
+    height: 6%;
+    padding: 9px 20px;
+    margin-left: 23%;
+    margin-top: 11%;
+}
+
+span {
+    margin-left: 23px;
+    color: #511F50;
+    font-weight: bold;
+}
+
+.pp {
+    color: #ffffff;
+    padding: 6%;
+}
+
+.img-titre {
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    
+
+    h1 {
+        font-size: 2.2em;
+        text-align: center;
+
+    }
+
+    .headr1 {
+        justify-content: center;
+    }
+
+    .contnu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 100%;
+        height: 60%;
+        /* margin:5% ; */
+    }
+
+    .image2 {
+        width: 100%;
+        height: 60%;
+    }
+
+    .image3 {
+        width: 100%;
+        height: 60%;
+    }
+
+    .paragraphe {
+        font-size: 135%;
+        text-align: center;
+    }
+
+    .in1 {
+        width: 80%;
+    }
+
+    .in2 {
+        width: 80%;
+        margin: 6% 0% 0% 0%
+    }
+
+    .in3 {
+        width: 80%;
+        margin: 6% 0% 7% 0%
+    }
+
+    span {
+        display: block;
+    }
+}
